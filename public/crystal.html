@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Beware the Power of the Crystal!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="https://www.linkedin.com/in/nathan-schmidt-6a294a114/">Nathan Schmidt</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="psychic.html">Psychic</a>
+                                <a class="dropdown-item" href="crystal.html">Crystals</a>
+                                <a class="dropdown-item" href="#">Rutgers Widget</a>
+                                <a class="dropdown-item" href="trivia.html">Trivia Game</a>
+                                <a class="dropdown-item" href="giphy.html">Giphy</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 bg-dark">
+                <h1 class="text-white text-center border-white">Crystal Game</h1>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 bg-white text-center border-white">Click on a crystal to add to your score and try to
+                reach the target number below!!! If you click on the same crystal consecutively the value added will
+                stay the same! However... if you click on another crystal the value is likely going to change!</div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 bg-dark text-white text-center border-white" id="target-text"></div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 border-dark">
+                <img id="darkThree" class="img-fluid" src="assets/images/crystal.jpg">
+            </div>
+            <div class="col-md-3 border-dark">
+                <img id="darkOne" class="img-fluid" src="assets/images/crystal.jpg">
+            </div>
+            <div class="col-md-3 border-dark">
+                <img id="darkFour" class="img-fluid" src="assets/images/crystal.jpg">
+            </div>
+            <div class="col-md-3 border-dark">
+                <img id="darkTwo" class="img-fluid" src="assets/images/crystal.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bg-dark text-white text-center" id="wins-text"></div>
+            <div class="col-md-4 bg-dark text-white text-center" id="losses-text"></div>
+            <div class="col-md-4 bg-dark text-white text-center" id="counter-text"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="assets/javascript/crystal.js"></script>
+</body>
+
+</html>
